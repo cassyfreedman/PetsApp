@@ -4,11 +4,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Cassy's Furry Friends</title>
+        <title>JSP Page</title>
     </head>
+    
+    <% String table = (String) request.getAttribute("table"); %>
+    
+    
+    
     <body>
-        <h1>Cassy's Furry Friends Database</h1>
-        <a href="read">View All Pets</a>
+        <h1>Cassy's Furry Friends</h1>
+        <%= table %>
         
     </body>
 </html>
