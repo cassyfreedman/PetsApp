@@ -14,6 +14,10 @@
     <body>
         <h1>Cassy's Furry Friends</h1>
         <%= table %>
+        <br><br>
+        
+        <a href ="add">Add A New Pet</a>
+        
         
     </body>
 </html>

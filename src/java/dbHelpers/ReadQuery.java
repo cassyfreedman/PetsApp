@@ -94,6 +94,12 @@ public class ReadQuery {
                 table += "<td>";
                 table += pet.getColor();
                 table += "</td>";
+                
+                table += "<td>";
+                table += "<a href=delete?petID=" + pet.getPetID() + "> Delete </a>";
+                table += "</td>";
+                
+                
                 table += "</tr>";
             }
         } catch (SQLException ex) {
