@@ -5,6 +5,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Add A New Pet</title>
+         <link rel="stylesheet" type="text/css" href="./css/pets.css" />
     </head>
     <body>
         <h1>Add A New Pet</h1>
@@ -21,9 +22,9 @@
                         <br>
                         <label>Color:</label>
                         <input type="text" name="color" value="" size="50" required/>
-                        <br>
+                        <br><br>
                         <input type="submit" value="Submit" id="submit"/>
-            
+                        <br><br>
         </form>
     </body>
 </html>

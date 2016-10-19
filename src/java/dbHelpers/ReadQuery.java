@@ -62,9 +62,19 @@ public class ReadQuery {
         public String getHTMLtable(){
             
             String table = "";
-            table += "<table border=1>";
+            table += "<table>";
+            table += "<tr>";
+            table += "<th> Pet ID </th>";
+            table += "<th> Pet Name </th>";
+            table += "<th> Pet Type </th>";
+            table += "<th> Pet Age </th>";
+            table += "<th> Pet Color </th>";
+            table += "<th> Delete </th>";        
+            table += "</tr>";
             
-        try {
+            
+            
+            try {
             while(this.results.next()){
                 
                 Pets pet = new Pets();
