@@ -10,6 +10,6 @@
     <body>
         <h1>Cassy's Furry Friends Database</h1>
         <a href="read">View All Pets</a><br><br>
-        
+        <a href="search.jsp">Search Pets</a><br><br>
     </body>
 </html>

@@ -24,14 +24,15 @@ th, td {
      padding: 20px;
 }
 
-tr:hover {background-color: #CCCCCC}
+tr:hover {background-color: #CCCCCC;}
 
-tr:nth-child(even) {background-color: #F2F2F2}
+
+tr:nth-child(even) {background-color: #F2F2F2;}
 
 
 th {
-    background-color: #ffff99;
-    color: #ffff99;
+    background-color: #FFFF99;
+    color: #d2b48c;
     text-align: left;
     height: 10px;
 }
@@ -53,6 +54,10 @@ table {
 
 input { 
     
-    text-align: center; 
+    text-align: left; 
 
+}
+
+input[readonly] {
+background-color: gray;
 }

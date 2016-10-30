@@ -18,6 +18,7 @@
         <br><br>
         
         <a href ="add">Add A New Pet</a><br><br>
+        <a href="search.jsp">Search Pets</a><br><br>
         
         
     </body>
