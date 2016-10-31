@@ -8,14 +8,24 @@
         <link rel="stylesheet" type="text/css" href="./css/pets.css" />
     </head>
     <body>
-        <h1>Search Pets</h1>
-        <form name ="searchForm" action="search" method="get">
-            <input type="text" name="searchVal" value="" />
-            <br>
-            <input type="submit" name="submit" value="Search" />
-            
-            
-            
-        </form>
+        <div class="wrap">
+            <%@ include file="includes/header.jsp" %>
+
+            <!--Menu-->
+            <%@ include file="includes/menu.jsp" %>
+            <div class="main">
+                <h1>Search Pets</h1>
+                <form name ="searchForm" action="search" method="get">
+                    <input type="text" name="searchVal" value="" />
+                    <br>
+                    <input type="submit" name="submit" value="Search" /><br><br>
+
+
+
+                </form>
+            </div>
+            <!--footer-->
+            <%@ include file="includes/footer.jsp" %>
+        </div> 
     </body>
 </html>

@@ -7,19 +7,27 @@
         <title>Cassy's Furry Friends</title>
         <link rel="stylesheet" type="text/css" href="./css/pets.css" />
     </head>
-    
-    <% String table = (String) request.getAttribute("table"); %>
-    
-    
-    
+
+    <% String table = (String) request.getAttribute("table");%>
+
+
+
     <body>
-        <h1>Cassy's Furry Friends</h1>
-        <%= table %>
-        <br><br>
-        
-        <a href ="add">Add A New Pet</a><br><br>
-        <a href="search.jsp">Search Pets</a><br><br>
-        
-        
+        <div class="wrap">
+            <%@ include file="includes/header.jsp" %>
+
+            <!--Menu-->
+            <%@ include file="includes/menu.jsp" %>
+            <div class="main">
+                <h1>Cassy's Furry Friends</h1>
+                <%= table%>
+                <br><br>
+
+                
+
+            </div>
+            <!--footer-->
+            <%@ include file="includes/footer.jsp" %>
+        </div>    
     </body>
 </html>
